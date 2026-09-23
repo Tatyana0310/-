@@ -42,7 +42,7 @@ sudo nmap -sV <ip-адрес>
 
 
 
-![Логи Fail2Ban](Screen/faill.png)
+![Логи Fail2Ban](Screen/failll.png)
 >Логи Fail2Ban. Т.к. попыток подбора пароля не было, тут только старт сервиса и базовые настройки.
 
 

@@ -27,7 +27,13 @@ sudo nmap -sV <ip-адрес>
 
 
 ![Логи Suricata](Screen/sur.png)
->Логи Suricata
+>Логи Suricata. На фото видно , что с ip адреса  192.168.56.104 было зафиксировано множественное сканирование различных портов различных служб. Были отправлены "пустые" http-запросы,непонятные для сервера.
+>SURICATA HTTP Request line incomplete — оборванные HTTP-запросы
+>SURICATA HTTP unable to match response to request — ответы, не соответствующие запросам
+>SURICATA HTTP Unexpected Request body — неожиданные тела запросов
+>SURICATA Applayer Detect protocol only one direction — протокол виден только в одну сторону
+>SURICATA Applayer Mismatch protocol both directions — разные протоколы в двух направлениях
+
 
 
 >![Логи Fail2Ban](Screen/faill.png)
